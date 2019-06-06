@@ -1,13 +1,29 @@
+/* html {
+    font-size: 10px;
+    background-image: url(./assets/images/animal5504875.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} */
+
+
 body {
     padding: 0;
     margin: 0;
 }
 
-#header {
+#head-container {
     display: flex;
     justify-content: center;
     width: 100%;
+}
 
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 
 #head-inner {
@@ -30,12 +46,19 @@ body {
 
 #keyRow {
     display: flex;
-    justify-content: space-between;
-    height: 10px;
-    align-items: center;
+    justify-content: center;
     width: 100%;
 }
 
+.key {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+}
 
-
-.letter {}
+.letter {
+    text-align: center;
+}
