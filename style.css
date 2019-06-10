@@ -9,9 +9,21 @@
 
 
 body {
-    padding: 0;
-    margin: 0;
+    background: url("./assets/images/animal5504875.jpg") no-repeat bottom fixed;
+    /* filter: blur(1px); */
+    background-color: white;
+    background-size: cover;
+    /* padding-top: 400px;
+    margin-top: 400px; */
 }
+
+/* #back-image {
+    background: url("./assets/images/animal5504875.jpg") no-repeat center fixed;
+    background-color: white;
+    background-size: cover;
+    padding-top: 100px;
+    margin-top: 150px; 
+} */
 
 #head-container {
     display: flex;
@@ -21,13 +33,6 @@ body {
 
 #header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-
-#head-inner {
-    display: flex;
     justify-content: center;
     width: 100%;
 }
@@ -36,6 +41,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    font-size: 25px;
 }
 
 #sounds {
@@ -52,11 +58,22 @@ body {
 
 .key {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 200px;
-    width: 200px;
+    margin: 10px;
+    height: 75px;
+    width: 75px;
+    border-radius: 5px;
     background-color: grey;
+    opacity: 0.6;
+    color: black;
+    font-size: 25px;
+}
+
+#sound-name {
+    font-size: 15px;
+    color: yellow;
 }
 
 .letter {

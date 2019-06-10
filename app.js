@@ -13,26 +13,31 @@ let tink = new Audio("assets/sounds/tink.wav")
 let tom = new Audio("assets/sounds/tom.wav")
 
 document.addEventListener('keypress', e => {
-            let keyCode = e.keyCode;
-            if (keyCode == 65 || keyCode == 97) {
-                boom.play()
-            } else if (keyCode == 83 || keyCode == 115) {
-                clap.play()
-            } else if (keyCode == 68 || keyCode == 100) {
-                hihat.play()
-            } else if (keyCode == 70 || keyCode == 102) {
-                kick.play()
-            } else if (keyCode == 71 || keyCode == 103) {
-                openhat.play()
-            } else if (keyCode == 72 || keyCode == 104) {
-                ride.play()
-            } else if (keyCode == 74 || keyCode == 106) {
-                snare.play()
-            } else if (keyCode == 75 || keyCode == 107) {
-                tink.play()
-            } else (keyCode == 76 || keyCode == 108)
-                clap.play()           
-        })
-
-
-        
+    let keyCode = e.keyCode;
+    if (keyCode == 65 || keyCode == 97) {
+        boom.play()
+    }
+    if (keyCode == 83 || keyCode == 115) {
+        clap.play()
+    }
+    if (keyCode == 68 || keyCode == 100) {
+        hihat.play()
+    }
+    if (keyCode == 70 || keyCode == 102) {
+        kick.play()
+    }
+    if (keyCode == 71 || keyCode == 103) {
+        openhat.play()
+    }
+    if (keyCode == 72 || keyCode == 104) {
+        ride.play()
+    }
+    if (keyCode == 74 || keyCode == 106) {
+        snare.play()
+    }
+    if (keyCode == 75 || keyCode == 107) {
+        tink.play()
+    }
+    if (keyCode == 76 || keyCode == 108)
+        clap.play()
+})
