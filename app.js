@@ -44,5 +44,5 @@ document.addEventListener('keypress', e => {
 })
 
 document.getElementById("aKey").addEventListener("click", () => {
-    boom.load(), boom.play()
+    boom.play()
 }) 
