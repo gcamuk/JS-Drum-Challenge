@@ -16,7 +16,7 @@ document.addEventListener('keypress', e => {
     let keyCode = e.keyCode;
     if (keyCode == 65 || keyCode == 97) {
         boom.play()
-    }
+    }``
     if (keyCode == 83 || keyCode == 115) {
         clap.play()
     }
@@ -42,6 +42,6 @@ document.addEventListener('keypress', e => {
         clap.play()
 })
 
-document.getElementById("A").addEventListener("click", () => {
+document.getElementById("A").addEventListener("touch", () => {
     boom.load(), boom.play()
 }) 
