@@ -41,3 +41,7 @@ document.addEventListener('keypress', e => {
     if (keyCode == 76 || keyCode == 108)
         clap.play()
 })
+
+document.getElementById("A").addEventListener("click", () => {
+    boom.load(), boom.play()
+}) 
