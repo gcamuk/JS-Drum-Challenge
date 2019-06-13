@@ -12,6 +12,7 @@ let snare = new Audio("assets/sounds/snare.wav")
 let tink = new Audio("assets/sounds/tink.wav")
 let tom = new Audio("assets/sounds/tom.wav")
 
+
 document.addEventListener('keypress', e => {
     let keyCode = e.keyCode;
     if (keyCode == 65 || keyCode == 97) {
@@ -42,6 +43,6 @@ document.addEventListener('keypress', e => {
         clap.play()
 })
 
-document.getElementById("A").addEventListener("click", () => {
+document.getElementById("aKey").addEventListener("click", () => {
     boom.load(), boom.play()
 }) 
