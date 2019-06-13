@@ -42,6 +42,6 @@ document.addEventListener('keypress', e => {
         clap.play()
 })
 
-document.getElementById("A").addEventListener("touch", () => {
+document.getElementById("A").addEventListener("click", () => {
     boom.load(), boom.play()
 }) 
