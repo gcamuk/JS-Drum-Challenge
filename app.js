@@ -40,9 +40,41 @@ document.addEventListener('keypress', e => {
         tink.play()
     }
     if (keyCode == 76 || keyCode == 108)
-        clap.play()
+        tom.play()
 })
 
 document.getElementById("aKey").addEventListener("click", () => {
     boom.play()
+}) 
+
+document.getElementById("sKey").addEventListener("click", () => {
+    clap.play()
+}) 
+
+document.getElementById("dKey").addEventListener("click", () => {
+    hihat.play()
+}) 
+
+document.getElementById("fKey").addEventListener("click", () => {
+    kick.play()
+}) 
+
+document.getElementById("gKey").addEventListener("click", () => {
+    openhat.play()
+}) 
+
+document.getElementById("hKey").addEventListener("click", () => {
+    ride.play()
+}) 
+
+document.getElementById("jKey").addEventListener("click", () => {
+   snare.play()
+}) 
+
+document.getElementById("kKey").addEventListener("click", () => {
+    tink.play()
+}) 
+
+document.getElementById("lKey").addEventListener("click", () => {
+    tom.play()
 }) 
