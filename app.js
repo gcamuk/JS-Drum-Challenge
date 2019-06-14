@@ -44,37 +44,38 @@ document.addEventListener('keypress', e => {
 })
 
 document.getElementById("aKey").addEventListener("click", () => {
-    boom.play()
+    boom.play(), aKey.style.color = "red"
+    
 }) 
 
 document.getElementById("sKey").addEventListener("click", () => {
-    clap.play()
+    clap.play(), sKey.style.color = "red"
 }) 
 
 document.getElementById("dKey").addEventListener("click", () => {
-    hihat.play()
+    hihat.play(), dKey.style.color = "red"
 }) 
 
 document.getElementById("fKey").addEventListener("click", () => {
-    kick.play()
+    kick.play(), fKey.style.color = "red"
 }) 
 
 document.getElementById("gKey").addEventListener("click", () => {
-    openhat.play()
+    openhat.play(), gKey.style.color = "red"
 }) 
 
 document.getElementById("hKey").addEventListener("click", () => {
-    ride.play()
+    ride.play(), hKey.style.color = "red"
 }) 
 
 document.getElementById("jKey").addEventListener("click", () => {
-   snare.play()
+   snare.play(), jKey.style.color = "red"
 }) 
 
 document.getElementById("kKey").addEventListener("click", () => {
-    tink.play()
+    tink.play(), kKey.style.color = "red"
 }) 
 
 document.getElementById("lKey").addEventListener("click", () => {
-    tom.play()
+    tom.play(), lKey.style.color = "red"
 }) 
