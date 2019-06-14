@@ -16,36 +16,35 @@ let tom = new Audio("assets/sounds/tom.wav")
 document.addEventListener('keypress', e => {
     let keyCode = e.keyCode;
     if (keyCode == 65 || keyCode == 97) {
-        boom.play()
+        boom.play(), aKey.style.color = "red"
     }``
     if (keyCode == 83 || keyCode == 115) {
-        clap.play()
+        clap.play(), sKey.style.color = "red"
     }
     if (keyCode == 68 || keyCode == 100) {
-        hihat.play()
+        hihat.play(), dKey.style.color = "red"
     }
     if (keyCode == 70 || keyCode == 102) {
-        kick.play()
+        kick.play(), fKey.style.color = "red"
     }
     if (keyCode == 71 || keyCode == 103) {
-        openhat.play()
+        openhat.play(), gKey.style.color = "red"
     }
     if (keyCode == 72 || keyCode == 104) {
-        ride.play()
+        ride.play(), hKey.style.color = "red"
     }
     if (keyCode == 74 || keyCode == 106) {
-        snare.play()
+        snare.play(), jKey.style.color = "red"
     }
     if (keyCode == 75 || keyCode == 107) {
-        tink.play()
+        tink.play(), kKey.style.color = "red"
     }
     if (keyCode == 76 || keyCode == 108)
-        tom.play()
+        tom.play(), lKey.style.color = "red"
 })
 
 document.getElementById("aKey").addEventListener("click", () => {
     boom.play(), aKey.style.color = "red"
-    
 }) 
 
 document.getElementById("sKey").addEventListener("click", () => {

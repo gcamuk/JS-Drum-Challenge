@@ -5,6 +5,37 @@ body {
     background-position-y: 250px;
 }
 
+@keyframes bounce-background {
+    from {
+        background-position: top;
+    }
+
+    50% {
+        background-position: bottom;
+    }
+
+    to {
+        background-position: top;
+    }
+}
+
+body {
+    animation-name: bounce-background;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    /* animation-direction: alternate; */
+    animation-duration: 2s;
+
+    /* For Chrome & Safari */
+    -webkit-animation-name: bounce-background;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+}
+
+
+
 #head-container {
     display: flex;
     justify-content: center;
